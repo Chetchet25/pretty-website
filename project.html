@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="CSS/project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div class="container">
+            <img src="menu.png" class="menu-icon" id="menu-a" onclick="openmenu()">
+            <div class="menu-box" id="menu">
+                <div class="right-links">
+                    <a class="try" href="PrettySite.html">Get Started</a>
+                    <img src="close.png" onclick="closemenu()">
+                </div>
+                <div class="menu-links">
+                    <a href="project.html" target="_self">About Us</a>
+                    <a href="project2.html" target="_self">Makeup</a>
+                    <a href="project3.html" target="_self">Skin Care</a>
+                    <a href="project4.html" target="_self">Some Alternatives</a>
+                    <a href="rateUsPage.html" target="_blank">Rate Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="div1">
+            <h1 class="head1">About Us..</h1>
+            <div class="div2"><!--<h3 class="head3">Small introduction</h3>-->
+            <p class="p1">Wearing makeup has become an essential tool in society to manage social expectations.
+                <br>By using makeup people are able to cover insecurities, blemishes or features on their face they may not 
+                neccesarily want to be seen.<br>Make up is a semi permanent mask for people to enhance or change their features.<br>
+                Before you begin applying any makeup, you should first prepare your skin. If you skip out on your skincare routine before 
+                applying makeup, the skin on your face may appear uneven, patchy, and prone to premature aging..<br><br>
+            If you know nothing about makeup and skincare products, or if you're learning about it and you need a guid to pick some products, 
+            then this is the place you need!<br>
+            We've worked on this website to provide you <em><b>recommendations</b></em> on makeup and skincare products.<br>
+            Hope it can help you with getting what's appropriate for you!</p><br>
+            <p class="p2">You can navigate through the site using the <a href="#menu-a"><em><b><u>menu</u></b></em></a> at the top of this page.<br>Enjoy your time~</p><br><br>
+            <hr><br>
+                <h4 class="h4-L">Contact us!<br><br>
+                   <a class="aL" href="mailto:aliaaalrishan@gmail.com"><img class="imgL" src="https://cdn-icons-png.flaticon.com/512/2250/2250206.png"
+                    alt="email icon" width="30" height="30"></a></h4>   
+   
+                   
+   
+                    <h4 class="h4-L">Rate us!<br><br>
+                   <a class="aL" href="rateUsPage.html" target="_blank"><img class="imgL" src="https://cdn-icons-png.flaticon.com/512/285/285939.png"
+                   alt="rate icon" width="40" height="40"></a></h4>
+                
+                </div>
+            <div class="">
+
+            </div>
+        </div>
+<script>
+    var menu = document.getElementById("menu");
+    function closemenu(){
+        menu.style.top="-100vh"
+    }
+    function openmenu(){
+        menu.style.top="11%"
+    }
+    closemenu()
+</script>    
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pretty</title>
+    <link rel="stylesheet" href="css/PrettySite.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;
+    1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+</head>
+<body>
+    <?php 
+    session_start();
+    if(isset($_SESSION['views']))
+        $_SESSION['views'] = $_SESSION['views']+1;
+    else
+        $_SESSION['views']=1;
+    echo "You have visited this page ".  $_SESSION['views'] . " times in this session.";
+    ?>
+    <header>
+        <nav class="content">
+            <div class="logo">
+                <a>PRETT<span class="span1">Y</span></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a class="aa" href="project.html">About us</a></li>
+                    <li><a class="aa" href="project2.html">Make Up</a></li>
+                    <li><a class="aa" href="project3.html">Skin Care</a></li>
+                    <li><a class="aa" href="project4.html">Alternatives</a></li>
+                    <li><a class="aa" href="mailto:odennyamato@hotmail.com">Contact us</a></li><!--contact us 2 ((my email))-->
+                </ul>
+            </div>
+            <div class="btn">
+                <a class="aa" href="rateUsPage.html">Rate Us</a>
+            </div>
+ 
+        </nav>
+        <div class="main-content">
+            <div class="text">
+                <h1> &emsp;&emsp;&emsp;&emsp; Pick <br>What's <span class="span2">Better</span> for You</h1><!--&empt; is empty space-->
+                <p><a class="a1" href="http://localhost/PHP%20course/ProjectSession.php" target="_blank">&emsp;&emsp;Click here to know how many times you've visited this page.</a></p>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                <a class="btn2" href="LoginPage.html" target="_blank">Login</a>
+            </div>
+            <div class="img">
+                <img src="https://i.pinimg.com/originals/e7/b9/0b/e7b90b7449959c4ce3ca9250a5aef632.png" alt="Pretty Pic.">
+            </div>
+        </div>
+    </header>
+    <script>
+        window.onload=function(){
+            alert("Welcome to Pretty Site !");
+        }
+    </script>
+</body>
+</html>
