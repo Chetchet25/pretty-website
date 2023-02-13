@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background:#305164;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo a{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.span1{
+    color: #D98971;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 18px;
+}
+.menu ul li .aa{
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14pt;
+}
+.menu ul li .aa:hover{
+    color: #727272;
+    transition: 0.5s;
+}
+.btn .aa{
+    background: #D98971;
+    padding: 14px 30px;
+    color: #212224;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 30px;
+    letter-spacing: 1px;
+}
+.btn .aa:hover{
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.main-content{
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+.text h1{
+    color: white;
+    font-size: 45px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    font-family: 'Alata', sans-serif;
+}
+.text p{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 26px;
+}
+.a1{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+}
+.a1:hover{
+    color: #727272;
+    transition: 0.5s;
+}
+.btn2{
+    color: white;
+    border: 2px solid #D98971;
+    padding: 12px 28px;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+.btn2:hover{
+    background: #D98971;
+    color: white;
+    transition: 0.5s;
+}
+.span2{
+    color: #D98971;
+    font-family: 'Alata', sans-serif;
+}

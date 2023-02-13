@@ -1,0 +1,233 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/e4/0d/1e/e40d1e04ba6d9eb40da3087a9cba4732.png"); 
+    background-position: top;
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    background-color: white;
+}
+
+.div1{
+    background-color: rgb(253, 251, 251);
+    /* background-image: url("https://i.pinimg.com/originals/12/11/15/1211159225bdb6f66b1eb85809240cdb.png");
+    background-size: 20000px;
+    background-repeat: no-repeat;
+    background-position:center; */
+    border: 0.5pt gray solid;
+    border-radius: 25px;
+    margin-top: 16cm;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+
+.menu-icon{
+    width: 60px;
+    position: absolute;
+    top: 2%;
+    right: 1%;
+    cursor: pointer;
+}
+.menu-icon:hover{
+    width: 65px;
+}
+.menu-box{
+    width: 20%;
+    background:dimgray;
+    position: absolute;
+    top: 11%;
+    right: 5%;
+    padding: 50px 100px;
+    border-radius: 10px;
+    transition: top 0.5s;
+}
+.right-links{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+}
+.right-links img{
+    width: 50px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.right-links a{
+    text-decoration: none;
+    color: white;
+    background-color: lightcoral;
+    padding: 15px 40px;
+    border-radius: 30px;
+}
+.menu-links a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: fit-content;
+    margin: 30px 0;
+    font-size: 30px;
+    font-family: 'Acme', sans-serif;
+}
+.menu-links a:hover{
+    font-weight: 900;
+}
+
+.try{
+    font-family: 'Acme', sans-serif;
+    font-size:20px ;
+}
+
+/* .a1{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20pt;
+    font-family:cursive;
+}
+
+.a1:hover{
+    text-decoration: underline;
+} */
+
+/* .ul1{
+    background-image: url("https://i.pinimg.com/originals/2a/ea/3a/2aea3ae0ec196d2a56a8a6a897c7bd23.png");
+    background-size: 600px;
+    border: 2pt rgb(90, 22, 22) double;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width:auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.4cm;
+    text-align: center;
+
+}
+
+.ul1 li{
+    display: inline-block;
+    text-align: center;
+    padding-left: 110px;
+    padding-right: 110px;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+} */
+
+.div2{
+    border-radius: 25px;
+    background-color: antiquewhite;
+    float: left;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 0.5cm;
+    margin-top: 3cm;
+    margin-right: 0.5cm;
+    margin-bottom: 0.5cm;
+}
+
+.h3{
+    text-align: left;
+    margin-left: 0.7cm;
+    margin-right: 0.7cm;
+    font-size: 20pt;
+    font-family: monospace;
+    color:darkslategrey;
+}
+
+.table1{
+    border: 2pt darkslategray dashed;
+    border-radius: 15px;
+    margin-left: 0.5cm;
+    font-size: 19pt;
+    text-align: left;
+    margin-right: 0.5cm;
+    margin-bottom: 0.5cm;
+    width: fit-content;
+    height: fit-content;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+}
+
+td{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-family:monospace;
+    font-size: 18pt;
+}
+
+.div3{
+    margin-left: 0.5cm;
+    margin-right: 8cm;
+    margin-top: 1cm;
+    text-align: center;
+}
+
+.h1{
+    text-align: center;
+    color: rgb(3, 0, 0);
+    font-size: 30pt;
+    font-family: 'Acme', sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.div4{
+    margin-left: 5cm;
+    padding-left: 5cm;
+    margin-right: 2cm; 
+    margin-top: 2cm;
+    text-align: left;
+}
+
+.p1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18pt;
+    color: rgb(20, 86, 139);
+}
+
+.h3s{
+    font-family: 'Acme', sans-serif;
+    font-size: 18pt;
+}
+
+.p2s{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17pt;
+    /* color: red; */
+}
+
+.ul2 li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family:monospace ;
+    font-size: 16pt;
+}
+
+.img1{
+    height: 5cm;
+    width: 5cm;
+    /* border: 2pt gray solid;
+    border-radius: 12px; */
+}
+
+.a2{
+    text-decoration: none;
+    color: black;
+}
+
+.a2:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.imgA{
+    float: left;
+    width: 7cm;
+    padding-left: 0.5cm;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    padding-right: 0.5cm;
+}
